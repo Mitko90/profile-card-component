@@ -26,11 +26,11 @@ ul{list-style: none;}
 
 body{
     background-color: var(--clr-dark-cyan);
-    background-image: url(images/bg-pattern-top.svg);
-    background-repeat: no-repeat;
     background-size: 38.8125rem;
     background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-    background-position: right 45vw bottom 40vh, left 45vw top 55vh;
+/*     background-position: right 45vw bottom 40vh, left 45vw top 55vh; */
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     min-height: 100vh;
     display: flex;
     align-items: center;
